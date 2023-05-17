@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Imóveis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+</head>
+<body class="container">
+    <h1 class="d-flex justify-content-center mt-5" >Cadastre seu imóvel</h1>
+    <div>
+        <form action="" id="form_cadastro">
+            <label class="form-label" for="proprietario">Nome do imóvel</label>
+            <input class="form-control" id="input_nome" type="text" name="" id="imovel">
+
+            <label class="form-label" for="gasto">Gasto Previsto</label>
+            <input class="form-control" id="input_gasto" type="number" name="" id="gasto">
+
+            <label class="form-label" for="lucro">Lucro Previsto</label>
+            <input class="form-control" id="input_lucro" type="number" name="" id="lucro">
+
+            <label class="form-label" for="ROI">ROI</label>
+            <input class="form-control" id="input_roi" type="number" name="" id="vagas">
+
+            <label class="form-label" for="data">Data do Leilão</label>
+            <input class="form-control" id="input_data" type="text" name="" id="data">
+
+            <label class="form-label" for="foto">Foto</label>
+            <input class="form-control" id="input_foto" type="text" name="" id="foto">
+
+            <button onclick="addImovel()" class="btn btn-primary mt-3 form-control" type="button">Salvar informações</button>
+
+        </form>
+    </div>
+
+    <div>
+        <table class="table mt-5 table-striped">
+            <thead>
+                <tr>
+                    <th>Imóvel</th>
+                    <th>Gasto Previsto</th>
+                    <th>Lucro Previsto</th>
+                    <th>ROI</th>
+                    <th>Data do Leilão</th>
+                    <th>Status</th>
+                    <th>Foto</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="bodymodal">
+          teste
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Modal2 -->
+
+<div class="modal fade" id="modalEditar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Alterar dados</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" id="form_cadastro2">
+          <label class="form-label" for="proprietario">Nome do imóvel</label>
+          <input class="form-control" id="input_nome2" type="text" name="" id="imovel">
+
+          <label class="form-label" for="gasto">Gasto Previsto</label>
+          <input class="form-control" id="input_gasto2" type="number" name="" id="gasto">
+
+          <label class="form-label" for="lucro">Lucro Previsto</label>
+          <input class="form-control" id="input_lucro2" type="number" name="" id="lucro">
+
+          <label class="form-label" for="ROI">ROI</label>
+          <input class="form-control" id="input_roi2" type="number" name="" id="vagas">
+
+          <label class="form-label" for="data">Data do Leilão</label>
+          <input class="form-control" id="input_data2" type="text" name="" id="data">
+
+          <label class="form-label" for="foto">Foto</label>
+          <input class="form-control" id="input_foto2" type="text" name="" id="foto">
+      </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
+    <script src="eventos.js"></script>
+</body>
+</html>

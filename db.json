@@ -1,0 +1,75 @@
+{
+  "imoveis": [
+    {
+      "id": 1,
+      "nome": "Lidia Brigido",
+      "gasto": "58000",
+      "lucro": "32000",
+      "roi": "62",
+      "data": "28/11/22",
+      "foto": "lidia brigido.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Itaitinga",
+      "gasto": "20000",
+      "lucro": "30000",
+      "roi": "150",
+      "data": "22/02/22",
+      "foto": "itaitinga.jpg"
+    },
+    {
+      "nome": "Pacajus",
+      "gasto": "92450",
+      "lucro": "42200",
+      "roi": "45.6",
+      "data": "21/03/2023",
+      "id": 3
+    },
+    {
+      "nome": "Carmelle Vitta",
+      "gasto": "144000",
+      "lucro": "59.170",
+      "roi": "41",
+      "data": "19/05/2023",
+      "foto": "https://resizedimgs.zapimoveis.com.br/crop/420x236/named.images.sp/ab44bccd04b1e5dd3f1e8f50ea4b556d/casa-de-condominio-com-3-quartos-a-venda-94m-no-mangabeira-eusebio.jpg",
+      "id": 6
+    },
+    {
+      "nome": "Lidia Brigido",
+      "gasto": "58000",
+      "lucro": "32000",
+      "roi": "62",
+      "data": "28/11/22",
+      "foto": "lidia brigido.jpg",
+      "id": 7
+    },
+    {
+      "nome": "",
+      "gasto": "",
+      "lucro": "",
+      "roi": "",
+      "data": "",
+      "foto": "",
+      "id": 8
+    },
+    {
+      "nome": "1",
+      "gasto": "2",
+      "lucro": "2",
+      "roi": "12",
+      "data": "",
+      "foto": "2",
+      "id": 9
+    },
+    {
+      "nome": "123",
+      "gasto": "12",
+      "lucro": "2",
+      "roi": "2",
+      "data": "2",
+      "foto": "2",
+      "id": 10
+    }
+  ]
+}
