@@ -45,40 +45,13 @@
       "id": 7
     },
     {
-      "nome": "Andre",
-      "gasto": "",
-      "lucro": "",
-      "roi": "",
-      "data": "",
-      "foto": "",
-      "id": 8
-    },
-    {
-      "nome": "",
-      "gasto": "",
-      "lucro": "",
-      "roi": "",
-      "data": "",
-      "foto": "",
-      "id": 9
-    },
-    {
-      "nome": "",
-      "gasto": "",
-      "lucro": "",
-      "roi": "",
-      "data": "",
-      "foto": "",
-      "id": 10
-    },
-    {
-      "nome": "Testando André",
+      "nome": "Lucas",
       "gasto": "20000",
       "lucro": "50000",
-      "roi": "70",
-      "data": "12/12/2024",
-      "foto": "NONE",
-      "id": 11
+      "roi": "50",
+      "data": "12/12/2023",
+      "foto": "",
+      "id": 8
     }
   ]
 }
