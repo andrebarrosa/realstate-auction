@@ -45,7 +45,7 @@
       "id": 7
     },
     {
-      "nome": "",
+      "nome": "Andre",
       "gasto": "",
       "lucro": "",
       "roi": "",
@@ -54,22 +54,31 @@
       "id": 8
     },
     {
-      "nome": "1",
-      "gasto": "2",
-      "lucro": "2",
-      "roi": "12",
+      "nome": "",
+      "gasto": "",
+      "lucro": "",
+      "roi": "",
       "data": "",
-      "foto": "2",
+      "foto": "",
       "id": 9
     },
     {
-      "nome": "123",
-      "gasto": "12",
-      "lucro": "2",
-      "roi": "2",
-      "data": "2",
-      "foto": "2",
+      "nome": "",
+      "gasto": "",
+      "lucro": "",
+      "roi": "",
+      "data": "",
+      "foto": "",
       "id": 10
+    },
+    {
+      "nome": "Testando André",
+      "gasto": "20000",
+      "lucro": "50000",
+      "roi": "70",
+      "data": "12/12/2024",
+      "foto": "NONE",
+      "id": 11
     }
   ]
 }

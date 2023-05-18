@@ -1,5 +1,5 @@
 
-
+let imoveis = [];
 
 async function addImovel() {
     event.preventDefault();
@@ -44,7 +44,7 @@ function atualizarTabela(lista) {
             <tr>
                 <td>${cada.nome}</td>
                 <td>R$${cada.gasto},00</td>
-                <td>R${cada.lucro},00</td>
+                <td>R$${cada.lucro},00</td>
                 <td>${cada.roi}%</td>
                 <td>${cada.data}</td>
                 <td><select name="" id="status">
@@ -95,20 +95,20 @@ async function excluirBebida(id) {
 
 
 function editarImovel(id) {
-    exampleModalLabel.innerHTML = 'Editar Imovel';
+    form_titulo.innerHTML = "Editar imóvel"
 
     fetch(`http://localhost:8000/imoveis/${id}`)
         .then(res => res.json())
         .then(dados => {
             //preenchimento do form
-            input_nome.value = dados.nome,
-            input_gasto.value = dados.gasto,
-            input_lucro.value = dados.lucro,
-            input_roi.value = dados.roi,
-            input_foto.value = dados.foto,
-            input_data.value = dados.data
+            input_nome2.value = dados.nome,
+            input_gasto2.value = dados.gasto,
+            input_lucro2.value = dados.lucro,
+            input_roi2.value = dados.roi,
+            input_foto2.value = dados.foto,
+            input_data2.value = dados.data
         })
-    form_cadastro2.setAttribute('onsubmit', `salvarBebida(${id})`);
+    form_cadastro2.setAttribute('onclick', `salvarBebida(${id})`);
 }
 
 //confirmar o editar
@@ -121,12 +121,12 @@ async function salvarBebida(id) {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            nome: input_nome.value,
-            gasto: input_gasto.value,
-            lucro: input_lucro.value,
-            roi: input_roi.value,
-            foto: input_foto.value,
-            data: input_data.value,
+            nome: input_nome2.value,
+            gasto: input_gasto2.value,
+            lucro: input_lucro2.value,
+            roi: input_roi2.value,
+            foto: input_foto2.value,
+            data: input_data2.value,
         })
     });
 
