@@ -1,1 +1,2 @@
-Stock control of realstate acquired on auctions.git gitgit 
+Controle de estoque de imóveis adquiridos em leilões
+Stock control of realstate acquired on auctions
